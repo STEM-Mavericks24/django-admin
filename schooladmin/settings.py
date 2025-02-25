@@ -24,12 +24,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'twdd4f!++hs_-rz@&m*hpw7@%1-&3yw*6441_azna546=(c=wc'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['https://django-admin-qm1t.onrender.com']
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'django-admin-qm1t.onrender.com',  # Add your Render domain here
+]
 
-
-# Application definition
 
 INSTALLED_APPS = [
     'jazzmin',
