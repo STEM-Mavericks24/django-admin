@@ -1,1 +1,1 @@
-web: gunicorn schooladmin.wsgi:application
+gunicorn schooladmin.wsgi:application --bind 0.0.0.0:8000
