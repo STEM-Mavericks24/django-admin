@@ -26,7 +26,7 @@ SECRET_KEY = 'twdd4f!++hs_-rz@&m*hpw7@%1-&3yw*6441_azna546=(c=wc'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django-admin.onrender.com']
 
 
 # Application definition
